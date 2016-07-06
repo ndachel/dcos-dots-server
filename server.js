@@ -76,4 +76,4 @@ app.get('/grid', function (req, res) {
 });
 
 
-app.listen(3000, "127.0.0.1", () => { console.log(`Server is listening on localhost port 3000`); });
+app.listen(3000, "0.0.0.0", () => { console.log(`Server is listening on localhost port 3000`); });
